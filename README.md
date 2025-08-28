@@ -1,4 +1,6 @@
 # Atividade Beecrowd
+
+[Atividade Beecrowd no Notion](https://www.notion.so/Atividades-beecrowd-256ec52664458070b586e6c361efd983)
 ---
 # Niveis:
 <h2>
