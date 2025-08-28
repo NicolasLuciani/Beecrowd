@@ -191,3 +191,5 @@ WHERE
     EXTRACT (MONTH FROM R.rentals_date) = 9
     AND EXTRACT (YEAR FROM R.rentals_date) = 2016;
 ```
+
+# Completo
