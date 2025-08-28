@@ -1,6 +1,6 @@
 # Atividade Beecrowd
 ---
-## Niveis:
+# Niveis:
 - Nível 1
   - Endereço dos Clientes
   - Cidades em Ordem Alfabética
@@ -23,7 +23,7 @@
 
  ---
 # Nivel 1:
-### - Endereço de imagens:<br>
+## - Endereço de imagens:<br>
 O seu trabalho é nos passar os nomes e os endereços dos clientes que moram em 'Porto Alegre', para entregar os convites pessoalmente.
 ```sql
 SELECT
@@ -36,7 +36,7 @@ WHERE
 ```
 
 
-### - Cidades em Ordem Alfabética:<br>
+## - Cidades em Ordem Alfabética:<br>
 Todos os meses a empresa pede um relatório das cidades que os fornecedores estão cadastrados. Dessa vez não vai ser diferente, faça uma consulta no Banco de Dados que retorne todas as cidades dos fornecedores, mas em ordem alfabética.
 ```sql
 SELECT
@@ -48,7 +48,7 @@ ORDER BY
 ```
 
 
-### - Expandindo o Negocio:<br>
+## - Expandindo o Negocio:<br>
 O seu trabalho é nos passar os nomes e os endereços dos clientes que moram em 'Porto Alegre', para entregar os convites pessoalmente.
 ```sql
 SELECT
@@ -61,7 +61,7 @@ WHERE
 ```
 
 
-### - 	Maior e Menor Preço:<br>
+## - 	Maior e Menor Preço:<br>
 O setor financeiro da nossa empresa, está querendo saber os menores e maiores valores dos produtos, que vendemos.
 Para isso exiba somente o maior e o menor preço da tabela produtos.
 ```sql
@@ -76,7 +76,7 @@ FROM
 # Nível 2
 
 
-### - Menores que 10 ou Maiores que 100:<br>
+## - Menores que 10 ou Maiores que 100:<br>
 O setor financeiro da empresa precisa de um relatório que mostre o código e o nome dos produtos cujo preço são menores que 10 ou maiores que 100.
 ```sql
 SELECT
@@ -90,7 +90,7 @@ WHERE
 ```
 
 
-### - Filmes em Promoção:<br>
+## - Filmes em Promoção:<br>
 Antigamente a locadora fez um evento em que vários filmes estavam em promoção, queremos saber que filmes eram esses. Seu trabalho para nós ajudar é selecionar o ID e o nome dos filmes cujo preço for menor que 2.00.
 ```sql
 SELECT
@@ -113,7 +113,7 @@ WHERE
 # Nível 3
 
 
-### - Categorias:<br>
+## - Categorias:<br>
 Quando os dados foram migrados de Banco de Dados, houve um pequeno mal-entendido por parte do antigo DBA. Seu chefe precisa que você exiba o código e o nome dos produtos, cuja categoria inicie com 'super'.
 ```sql
 SELECT 
@@ -128,7 +128,7 @@ WHERE
 ```
 
 
-### - Produtos Importados:<br>
+## - Produtos Importados:<br>
 O setor de importação da nossa empresa precisa de um relatório sobre a importação de produtos do nosso fornecedor Sansul. Sua tarefa é exibir o nome dos produtos, o nome do fornecedor e o nome da categoria, para os produtos fornecidos pelo fornecedor ‘Sansul SA’ e cujo nome da categoria seja 'Imported'.
 ```sql
 SELECT
@@ -153,7 +153,7 @@ WHERE
 # Nível 4
 
 
-### - Filmes de Ação:<br>
+## - Filmes de Ação:<br>
 Uma Vídeo locadora contratou seus serviços para catalogar os filmes dela. Eles precisam que você selecione o código e o nome dos filmes cuja descrição do gênero seja 'Action'.
 ```sql
 SELECT
@@ -175,7 +175,7 @@ WHERE
 # Nível 5 
 
 
-### - Locações de Setembro:<br>
+## - Locações de Setembro:<br>
 A vídeo locadora está fazendo seu relatório semestral e precisa da sua ajuda. Basta você selecionar o nome dos clientes e a data de locação, das locações realizadas no mês de setembro de 2016.
 ```sql
 SELECT
